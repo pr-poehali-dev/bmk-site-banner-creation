@@ -1,115 +1,95 @@
 import Icon from '@/components/ui/icon';
 
 export default function AboutPage() {
-  const awards = [
-    { title: 'Золотое качество 2023', desc: 'За лучшую молочную продукцию' },
-    { title: 'Лидер отрасли', desc: 'Топ-10 производителей России' },
-    { title: 'Эко-производство', desc: 'Сертификат экологичности' },
-    { title: 'Народная марка', desc: 'Выбор покупателей 2023' },
-  ];
-
-  const certificates = [
-    'ISO 9001:2015 - Система менеджмента качества',
-    'ISO 22000:2018 - Безопасность пищевой продукции',
-    'HACCP - Контроль критических точек',
-    'Органик - Сертификат органической продукции',
-    'Халяль - Соответствие исламским стандартам',
-    'Росстандарт - Соответствие ГОСТ',
-  ];
-
   return (
-    <div className="py-16">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <h1 className="text-5xl font-bold mb-6 text-blue-600">О нашей компании</h1>
-          <p className="text-xl text-gray-700 leading-relaxed">
-            Белебеевский молочный комбинат — это более 90 лет традиций качества, современные технологии и забота о здоровье наших покупателей
+    <div>
+      <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16">
+        <div className="container mx-auto px-4">
+          <h1 className="text-5xl font-bold mb-6 text-foreground">О компании</h1>
+          <p className="text-xl text-muted-foreground max-w-3xl">
+            Белебеевский молочный комбинат — одно из старейших предприятий молочной промышленности Башкортостана
           </p>
         </div>
+      </section>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6 shadow-lg">
-              <Icon name="History" size={32} className="text-white" />
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold mb-6 text-foreground">Наша история</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  Белебеевский молочный комбинат был основан в 1932 году и за более чем 90 лет работы стал одним из ведущих производителей молочной продукции в Республике Башкортостан.
+                </p>
+                <p>
+                  Мы гордимся тем, что сохранили традиции качества, заложенные основателями предприятия, и постоянно внедряем современные технологии производства.
+                </p>
+                <p>
+                  Наша продукция пользуется заслуженной популярностью благодаря использованию только натурального сырья от местных фермерских хозяйств.
+                </p>
+              </div>
             </div>
-            <h2 className="text-3xl font-bold mb-4 text-blue-700">Наша история</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Основанный в 1932 году, Белебеевский молочный комбинат прошел путь от небольшой артели до крупнейшего производителя молочной продукции в регионе. За годы работы мы сохранили традиционные рецепты и внедрили инновационные технологии производства.
-            </p>
-          </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl shadow-lg">
-            <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center mb-6 shadow-lg">
-              <Icon name="Target" size={32} className="text-white" />
-            </div>
-            <h2 className="text-3xl font-bold mb-4 text-orange-700">Наша миссия</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Производить натуральную, качественную молочную продукцию, которая приносит пользу здоровью и радость каждой семье. Мы ответственно подходим к выбору сырья, контролируем каждый этап производства и постоянно совершенствуем наши продукты.
-            </p>
-          </div>
-        </div>
-
-        <div className="mb-16">
-          <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">
-            Сертификаты качества
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {certificates.map((cert, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500 hover:shadow-xl transition-all transform hover:-translate-y-1"
-              >
-                <div className="flex items-start gap-3">
-                  <Icon name="BadgeCheck" size={24} className="text-blue-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700 font-medium">{cert}</p>
+            <div className="bg-gradient-to-br from-primary/10 to-accent/10 p-8 rounded-3xl">
+              <div className="grid grid-cols-2 gap-6">
+                <div className="text-center">
+                  <div className="text-5xl font-bold text-primary mb-2">90+</div>
+                  <div className="text-muted-foreground">лет на рынке</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-5xl font-bold text-accent mb-2">150+</div>
+                  <div className="text-muted-foreground">видов продукции</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-5xl font-bold text-secondary mb-2">500+</div>
+                  <div className="text-muted-foreground">сотрудников</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-5xl font-bold text-primary mb-2">50+</div>
+                  <div className="text-muted-foreground">наград</div>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
+      </section>
 
-        <div>
-          <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">
-            Награды и достижения
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {awards.map((award, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-br from-orange-50 to-blue-50 p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all transform hover:-translate-y-2"
-              >
-                <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <Icon name="Trophy" size={40} className="text-white" />
-                </div>
-                <h3 className="text-xl font-bold mb-2 text-orange-700">{award.title}</h3>
-                <p className="text-gray-600">{award.desc}</p>
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">Наши ценности</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Icon name="Heart" className="text-primary" size={36} />
               </div>
-            ))}
-          </div>
-        </div>
+              <h3 className="text-2xl font-bold mb-4 text-foreground">Качество</h3>
+              <p className="text-muted-foreground">
+                Строгий контроль на всех этапах производства гарантирует высочайшее качество нашей продукции
+              </p>
+            </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-orange-500 rounded-3xl p-12 text-white text-center shadow-2xl">
-          <h2 className="text-4xl font-bold mb-6">Цифры, которые говорят о нас</h2>
-          <div className="grid md:grid-cols-4 gap-8 mt-10">
-            <div>
-              <div className="text-5xl font-bold mb-2">90+</div>
-              <p className="text-blue-100">лет на рынке</p>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Icon name="Users" className="text-accent" size={36} />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-foreground">Ответственность</h3>
+              <p className="text-muted-foreground">
+                Мы несем ответственность перед нашими потребителями за каждый продукт, который выпускаем
+              </p>
             </div>
-            <div>
-              <div className="text-5xl font-bold mb-2">150+</div>
-              <p className="text-blue-100">видов продукции</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2">500+</div>
-              <p className="text-blue-100">сотрудников</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2">50+</div>
-              <p className="text-blue-100">наград и дипломов</p>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Icon name="Sparkles" className="text-secondary" size={36} />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-foreground">Инновации</h3>
+              <p className="text-muted-foreground">
+                Современное оборудование и передовые технологии позволяют нам создавать лучшие продукты
+              </p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
