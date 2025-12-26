@@ -92,14 +92,22 @@ export default function ProductionPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-gradient-to-br from-blue-50 via-white to-orange-50">
         <div className="container mx-auto px-4">
+          <div className="mb-16">
+            <img 
+              src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/4ece5b06-3e75-44e4-b346-d1f75aaaf0f6.jpg"
+              alt="Производство молочного комбината"
+              className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
+            />
+          </div>
+
           <h2 className="text-4xl font-bold mb-12 text-center text-foreground">Наше оборудование</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-card p-8 rounded-2xl border border-border shadow-sm">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <Icon name="Factory" className="text-primary" size={32} />
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-blue-600 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <Icon name="Factory" className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Современные линии</h3>
               <p className="text-muted-foreground">
@@ -107,9 +115,9 @@ export default function ProductionPage() {
               </p>
             </div>
 
-            <div className="bg-card p-8 rounded-2xl border border-border shadow-sm">
-              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mb-6">
-                <Icon name="Thermometer" className="text-accent" size={32} />
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-gradient-to-br from-accent to-secondary rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <Icon name="Thermometer" className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Контроль температуры</h3>
               <p className="text-muted-foreground">
@@ -117,9 +125,9 @@ export default function ProductionPage() {
               </p>
             </div>
 
-            <div className="bg-card p-8 rounded-2xl border border-border shadow-sm">
-              <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
-                <Icon name="FlaskConical" className="text-secondary" size={32} />
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-gradient-to-br from-secondary to-orange-600 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <Icon name="FlaskConical" className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Лаборатория</h3>
               <p className="text-muted-foreground">

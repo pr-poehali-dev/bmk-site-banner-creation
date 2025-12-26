@@ -98,7 +98,7 @@ export default function HomePage() {
 
             <div className="relative animate-scale-in">
               <img
-                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/706cf4ea-920c-4423-a28e-d22a07a706f3.jpg"
+                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/ff25175d-210d-424e-97b3-b602ad38b73e.jpg"
                 alt="Молочная продукция"
                 className="rounded-2xl shadow-2xl w-full"
               />
