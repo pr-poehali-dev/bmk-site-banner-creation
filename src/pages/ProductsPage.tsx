@@ -113,7 +113,7 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4">
           <div className="mb-12">
             <img 
-              src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/3db86334-6f75-40a7-80f7-19dd6329e05c.jpg"
+              src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg"
               alt="Продукция"
               className="w-full h-[300px] object-cover rounded-3xl shadow-2xl"
             />

@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">О нашей компании</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Белебеевский молочный комбинат — это более 50 лет традиций качества и заботы
+              Белебеевский молочный комбинат — это более 65 лет традиций качества и заботы
               о здоровье наших покупателей. Мы производим натуральную молочную продукцию,
               которой доверяют тысячи семей.
             </p>
@@ -53,7 +53,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/bc9a6ce9-d942-4c1e-9de1-210af191e12d.jpg"
+                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/0dec5172-2f91-4d76-bde0-1ebe4abffeaa.jpg"
                 alt="О компании"
                 className="rounded-2xl shadow-xl w-full"
               />
@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-4xl font-bold">Наша история</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Белебеевский молочный комбинат был основан в 1967 году и с тех пор стал
+                Белебеевский молочный комбинат был основан в 1956 году и с тех пор стал
                 одним из ведущих производителей молочной продукции в регионе. За годы
                 работы мы накопили бесценный опыт и завоевали доверие покупателей.
               </p>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               </p>
               <div className="grid grid-cols-3 gap-6 pt-4">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-primary">57</div>
+                  <div className="text-4xl font-bold text-primary">65+</div>
                   <div className="text-sm text-muted-foreground mt-1">лет на рынке</div>
                 </div>
                 <div className="text-center">
