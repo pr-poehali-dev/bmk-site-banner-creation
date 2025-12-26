@@ -7,42 +7,42 @@ export default function NewsPage() {
     {
       date: '15 декабря 2024',
       title: 'Новая линия по производству йогуртов',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/5ed4e85a-1945-4b5d-a36a-86c38ac8f473.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/0dec5172-2f91-4d76-bde0-1ebe4abffeaa.jpg',
       excerpt: 'На Белебеевском молочном комбинате запущена новая автоматизированная линия по производству йогуртов мощностью 5000 упаковок в час.',
       category: 'Производство'
     },
     {
       date: '1 декабря 2024',
       title: 'Золотая медаль на выставке "Продэкспо-2024"',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/3db86334-6f75-40a7-80f7-19dd6329e05c.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg',
       excerpt: 'Наш сыр "Российский" получил золотую медаль на крупнейшей международной выставке продуктов питания.',
       category: 'Награды'
     },
     {
       date: '20 ноября 2024',
       title: 'Расширение ассортимента молочной продукции',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/737bea26-f665-49de-92f4-78cb8daffc0f.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg',
       excerpt: 'В продажу поступили новые виды творожных десертов с натуральными фруктовыми наполнителями.',
       category: 'Продукция'
     },
     {
       date: '10 ноября 2024',
       title: 'Партнёрство с местными фермерами',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/737bea26-f665-49de-92f4-78cb8daffc0f.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/ff25175d-210d-424e-97b3-b602ad38b73e.jpg',
       excerpt: 'Подписаны долгосрочные договора с пятью новыми фермерскими хозяйствами региона на поставку высококачественного молока.',
       category: 'Партнёрство'
     },
     {
       date: '25 октября 2024',
       title: 'Сертификация по стандарту HACCP',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/5ed4e85a-1945-4b5d-a36a-86c38ac8f473.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/0dec5172-2f91-4d76-bde0-1ebe4abffeaa.jpg',
       excerpt: 'Предприятие успешно прошло сертификацию системы безопасности пищевой продукции по международному стандарту HACCP.',
       category: 'Качество'
     },
     {
       date: '5 октября 2024',
       title: 'День открытых дверей для школьников',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/3db86334-6f75-40a7-80f7-19dd6329e05c.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/ff25175d-210d-424e-97b3-b602ad38b73e.jpg',
       excerpt: 'Более 200 школьников посетили наше предприятие в рамках профориентационной программы и узнали о современном производстве молочных продуктов.',
       category: 'События'
     }
