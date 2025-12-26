@@ -31,17 +31,17 @@ export default function HomePage() {
     {
       name: 'Молоко пастеризованное',
       description: 'Классическое молоко 2.5% и 3.2%',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/706cf4ea-920c-4423-a28e-d22a07a706f3.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg',
     },
     {
       name: 'Кефир и йогурты',
       description: 'Широкий выбор кисломолочной продукции',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/5c2beedf-ef70-43ea-80e5-1b6e7210e4dc.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg',
     },
     {
       name: 'Творог и сметана',
       description: 'Традиционные молочные продукты',
-      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/706cf4ea-920c-4423-a28e-d22a07a706f3.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/962e8bb9-085e-4898-b8d4-f2f5525a942b.jpg',
     },
   ];
 
@@ -188,7 +188,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/bc9a6ce9-d942-4c1e-9de1-210af191e12d.jpg"
+                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/0dec5172-2f91-4d76-bde0-1ebe4abffeaa.jpg"
                 alt="Производство"
                 className="rounded-2xl shadow-xl w-full"
               />
