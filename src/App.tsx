@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Home from '@/pages/Home';
-import About from '@/pages/About';
-import Products from '@/pages/Products';
-import Production from '@/pages/Production';
-import Contacts from '@/pages/Contacts';
-import News from '@/pages/News';
-import Certificates from '@/pages/Certificates';
+import HomePage from '@/pages/HomePage';
+import AboutPage from '@/pages/AboutPage';
+import ProductsPage from '@/pages/ProductsPage';
+import ProductionPage from '@/pages/ProductionPage';
+import ContactsPage from '@/pages/ContactsPage';
+import NewsPage from '@/pages/NewsPage';
+import CertificatesPage from '@/pages/CertificatesPage';
 
 function App() {
   return (
@@ -16,13 +16,13 @@ function App() {
         <Header />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/production" element={<Production />} />
-            <Route path="/contacts" element={<Contacts />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/certificates" element={<Certificates />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/production" element={<ProductionPage />} />
+            <Route path="/contacts" element={<ContactsPage />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/certificates" element={<CertificatesPage />} />
           </Routes>
         </main>
         <Footer />

@@ -79,7 +79,7 @@ export default function ProductionPage() {
           <div className="max-w-6xl mx-auto">
             <div className="mb-12">
               <img 
-                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/5ed4e85a-1945-4b5d-a36a-86c38ac8f473.jpg"
+                src="https://cdn.poehali.dev/projects/c9b738e7-22ef-412b-a2d1-40a45d5e063e/files/0dec5172-2f91-4d76-bde0-1ebe4abffeaa.jpg"
                 alt="Производство"
                 className="w-full h-[400px] object-cover rounded-3xl shadow-2xl"
               />

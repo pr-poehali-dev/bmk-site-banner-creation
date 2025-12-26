@@ -28,7 +28,7 @@ const Footer = () => {
               <li><Link to="/about" className="text-sm opacity-80 hover:opacity-100 transition">О компании</Link></li>
               <li><Link to="/products" className="text-sm opacity-80 hover:opacity-100 transition">Продукция</Link></li>
               <li><Link to="/production" className="text-sm opacity-80 hover:opacity-100 transition">Производство</Link></li>
-              <li><Link to="/certificates" className="text-sm opacity-80 hover:opacity-100 transition">Сертификаты</Link></li>
+
               <li><Link to="/news" className="text-sm opacity-80 hover:opacity-100 transition">Новости</Link></li>
             </ul>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm opacity-80">
               <li className="flex items-center gap-2">
                 <Icon name="MapPin" size={16} />
-                <span>г. Белебей, ул. Советская, 123</span>
+                <span>г. Белебей, ул. Заводская, 1</span>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Phone" size={16} />
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
-                <span>info@belebei-milk.ru</span>
+                <span>info@belemoloko.ru</span>
               </li>
             </ul>
           </div>
